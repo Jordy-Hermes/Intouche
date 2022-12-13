@@ -1,0 +1,12 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <div class="flex flex-col content-wrapper w-2/3 h-4/6 shadow-2xl px-14 rounded-3xl bg-[#e0e0e0]">
+        <div class="top-app">
+            <p class="text-lg font-bold">Ajouter un contact</p>
+        </div>
+        <div class="bottom-app">
+            {{ form(form) }}
+        </div>
+    </div>
+{% endblock %}
